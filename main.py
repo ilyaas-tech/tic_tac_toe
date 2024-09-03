@@ -116,4 +116,5 @@ for row in range(3):
         board[row][col] = Button(frame, font = ('consolas', 20), text = '', width = 10, height = 5, command = lambda row = row, col = col: step(row, col))
         board[row][col].grid(row = row, column = col)
 
+
 window.mainloop()
